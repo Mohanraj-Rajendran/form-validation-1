@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100wh; 
+    background-image: url(background\ img.jpg);
+    background-size: cover;  
+}
+
+form{
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.class-password
+{
+    width: 455px;
+    background-color: rgb(255, 255, 255);
+    
+    border-radius: 20px;
+    position: absolute;
+    
+}
+#togglePassword img {
+    width: 20px;
+    height: 20px;
+}
+
+#Password {
+    position: relative;
+    display: inline-block;
+  } 
+#togglePassword {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+ 
+ 
